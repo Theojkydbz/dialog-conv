@@ -1,0 +1,29 @@
+<app-particles-background></app-particles-background>
+
+<div class="container">
+  <app-reponses [reponses]="responses" [(action)]="action" (actionChange)="actionEvent($event)"></app-reponses>
+
+  <div class="input">
+    <img class="agent" src="./assets/Emobot.gif" />
+
+    <img class="burger" src="./assets/burger.svg" />
+
+    <input 
+      #input
+      [disabled]="wait"
+      [(ngModel)]="text"
+      placeholder="Votre demande..."
+      size="65"
+      (keyup.enter)="send()" />
+
+    <img class="send"
+      src="./assets/send.svg"
+      (click)="send()" />
+
+  </div>
+  <div class="shadow"></div>
+  <!-- <button class="listen" (click)="listen()" *ngIf="!stopped">Ecouter</button>
+  <button class="stop" (click)="stop()">Stop</button> -->
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,11 @@
+<div class="reponses">
+    <div class="reponse {{reponse.from}} num-{{reponses.length-i}}" [class.slide]="reponse.from !== 'WAITING' && i === reponses.length-1" *ngFor="let reponse of reponses;let i = index;">
+        <div *ngIf="reponse.from === 'USER' || reponse.from === 'BOT'">{{reponse.text}}</div>
+        <div *ngIf="reponse.from === 'WAITING'" id="wave-container" class="dot-wrapper">
+            <div id="d1" class="dot"></div>
+            <div id="d2" class="dot"></div>
+            <div id="d3" class="dot"></div>
+        </div>
+        <button *ngIf="reponse.from === 'ACTION'" class="final-button" type="button" (click)="setAction(reponse.action)">{{reponse.text}}</button>
+    </div>
+</div>

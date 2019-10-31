@@ -1,0 +1,25 @@
+[debug] [2019-09-24T14:29:17.978Z] ----------------------------------------------------------------------
+[debug] [2019-09-24T14:29:17.981Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-09-24T14:29:17.981Z] CLI Version:   7.3.0
+[debug] [2019-09-24T14:29:17.981Z] Platform:      win32
+[debug] [2019-09-24T14:29:17.981Z] Node Version:  v12.3.1
+[debug] [2019-09-24T14:29:17.982Z] Time:          Tue Sep 24 2019 16:29:17 GMT+0200 (GMT+02:00)
+[debug] [2019-09-24T14:29:17.982Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-24T14:29:17.990Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-24T14:29:17.991Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Projets\EMOTIC\assistant\backend
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
